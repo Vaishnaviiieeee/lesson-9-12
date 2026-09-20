@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 10b</title>
+    <style>
+        .list {
+            width: 320px;
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .info {
+            flex: 1;
+        }
+        .info .name {
+            font-weight: bold;
+            margin: 0;
+        }
+        .info .sub {
+            color: #777;
+            font-size: 13px;
+            margin: 2px 0 0 0;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <div class="card">
+            <img src="https://placecats.com/300/200?image=1" alt="oliver">
+            <div class="info">
+                <p class="name">oliver</p>
+                <p class="sub">the cat</p>
+                <p class="sub">Popular</p>
+            </div>
+            <button>Follow</button>
+        </div>
+        <div class="card">
+            <img src="https://placecats.com/300/200?image=2" alt="Mimi">
+            <div class="info">
+                <p class="name">Mimi</p>
+                <p class="sub">Sleepy Cat</p>
+                <p class="sub">Popular</p>
+            </div>
+            <button>Follow</button>
+        </div>
+        <div class="card">
+            <img src="https://placecats.com/300/200?image=3" alt="Rex">
+            <div class="info">
+                <p class="name">Rex</p>
+                <p class="sub">Happy Bulldog</p>
+                <p class="sub">Popular</p>
+            </div>
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
