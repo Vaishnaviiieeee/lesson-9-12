@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 10a</title>
+    <style>
+        .card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 320px;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-family: Arial, sans-serif;
+        }
+        .card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .info {
+            flex: 1;
+        }
+        .info .name {
+            font-weight: bold;
+            margin: 0;
+        }
+        .info .sub {
+            color: #777;
+            font-size: 13px;
+            margin: 2px 0 0 0;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://placecats.com/300/200?image=1" alt="oliver">
+        <div class="info">
+            <p class="name">oliver</p>
+            <p class="sub">the cat</p>
+            <p class="sub">Popular</p>
+        </div>
+        <button>Follow</button>
+    </div>
+</body>
+</html>
